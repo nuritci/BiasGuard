@@ -19,28 +19,14 @@ This README provides instructions on setting up the environment, using the code,
 ## File Structure
 ```
 ├── BiasGuard.ipynb
-├── datasets/
+├── Data/
 │   ├── Kaggle_Surgical-deepnet.csv
 │   ├── adult.csv
 │   ├── compas-scores-two-years_v1.csv
 │   ├── law_school_clean.csv
 │   └── recruitmentdataset-2022-1.3.csv
-├── README.md (this file)
+├── README.md 
 ```
-
----
-
-## Prerequisites
-1. **Python Environment**:
-   - Install Python 3.8 or higher.
-   - Install Jupyter Notebook.
-2. **Required Libraries**:
-   - pandas
-   - numpy
-   - scikit-learn
-   - matplotlib
-   - seaborn
-   - Other dependencies (refer to the first cell of the notebook for `pip install` commands).
 
 ---
 
@@ -63,13 +49,6 @@ This README provides instructions on setting up the environment, using the code,
 5. **recruitmentdataset-2022-1.3.csv**: A synthetic recruitment dataset for studying hiring biases.
 
 Each dataset is preprocessed and formatted to be compatible with the BiasGuard method. If using your own dataset, ensure it follows a similar structure.
-
----
-
-## Troubleshooting
-- **Missing Library**: Ensure all required libraries are installed.
-- **File Not Found Error**: Verify that the dataset path is correct.
-- **Performance Issues**: For large datasets, consider sampling or using optimized configurations.
 
 ---
 
